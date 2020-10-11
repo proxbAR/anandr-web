@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 
 body, html{
     font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     line-height: 1.6em;
     margin: 0;
     padding: 0;
@@ -59,7 +63,8 @@ nav .main-nav{
 nav .main-nav h1 a{
     text-decoration: none;
     color: #000;
-    font-family: Helvetica;
+    /*font-family: Helvetica;*/
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     cursor: pointer;
     padding-right:0px;
@@ -75,6 +80,7 @@ nav .main-nav ul li{
 }
 
 nav .main-nav ul li a{
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -196,7 +202,8 @@ nav .main-nav ul li a:hover{
         display:inline;
         position: fixed;
         right: 20px;
-        font-size: 30px;;
+        font-size: 30px;
+        color: #b00;
     }
 
 
